@@ -1,0 +1,2 @@
+//array is the collection of data items which used to store elements of same data types
+//array is a data structure use to store elements of similar datatypes
