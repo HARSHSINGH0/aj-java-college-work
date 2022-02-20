@@ -1,0 +1,19 @@
+class PrintArray {
+    //generic methods
+    public <T> void print(T[] data)
+    {
+        for(int i=0;i<data.length;i++){
+            System.out.println("Value:"+data[i]);
+        }
+    }
+}
+class PrintTest{
+    public static void main(String[] args) {
+        Integer[] i1={12,3,5};
+        String[] s1={"A","B","C"};
+        PrintArray p1=new PrintArray();
+        p1.print(i1);
+        p1.print(s1);
+        
+    }
+}
